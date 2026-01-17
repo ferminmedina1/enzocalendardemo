@@ -134,7 +134,6 @@ export default function LoginPage() {
               type="submit"
               disabled={loading}
               className={`w-full mt-12 py-4 px-5 rounded-2xl font-light text-white transition-all duration-300 relative overflow-hidden group disabled:opacity-50 disabled:cursor-not-allowed active:scale-95 active:-translate-y-0.5 enabled:hover:scale-105 enabled:hover:-translate-y-1 enabled:hover:shadow-lg enabled:hover:shadow-blue-400/20 focus:outline-none focus:ring-2 focus:ring-blue-300/50 focus:ring-offset-2 focus:ring-offset-white/30 bg-linear-to-br from-blue-400/85 via-blue-400/75 to-cyan-400/65 backdrop-blur-xl shadow-xl shadow-blue-400/25 border border-blue-300/70 before:absolute before:inset-0 before:bg-linear-to-t before:from-transparent before:to-white/20 before:opacity-0 hover:before:opacity-100 before:transition-opacity`}>
-            >
               <span className="relative z-10 flex items-center justify-center space-x-2">
                 {loading ? (
                   <>
